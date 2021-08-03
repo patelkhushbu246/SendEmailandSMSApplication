@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name:"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fname_tv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name:"
+        android:layout_marginTop="30dp"
+        android:id="@+id/lname_tv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:id="@+id/email_tv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact number:"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:id="@+id/contact_tv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:id="@+id/pwd_tv"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password:"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:id="@+id/cpwd_tv"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:textColor="@color/design_default_color_primary"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="30dp"
+        android:id="@+id/register_btn"/>
+</LinearLayout>
